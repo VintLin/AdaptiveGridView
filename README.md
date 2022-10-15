@@ -10,8 +10,8 @@ This basically means that the API is not fixed and you should expect changes bet
 
 ### Screenshots:
 
-![screenshot 1]()
-![screenshot 2]()
+![screenshot 1](https://raw.githubusercontent.com/VoterLin/AdaptiveGridView/main/screenshots/1.jpg)
+![screenshot 2](https://raw.githubusercontent.com/VoterLin/AdaptiveGridView/main/screenshots/2.jpg)
 
 ### Usage
 
