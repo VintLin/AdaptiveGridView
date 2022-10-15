@@ -26,11 +26,26 @@ In your ``build.gradle`` file:
 In your layout xml:
 
 ```xml
+ <com.voter.adaptivegridview.impl.GridRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" />
 ```
 
 In your activity class:
 
 ```kotlin
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        val items: List<GridItemSize> = mutableListOf()
+        val gridView = findViewById<GridRecyclerView>(R.id.recyclerView)
+        gridView?.apply {
+            val adapter = ItemViewAdapter(items)
+            setAdapter(adapter)
+        }
+    }
 ```
 
 Whenever your adapter changes (add or remove items), the grid will automatically reflect those
