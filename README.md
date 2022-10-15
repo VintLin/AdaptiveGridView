@@ -1,7 +1,7 @@
-# AutoGridView
+# AdaptiveGridView
 
-![GitHub branch checks state](https://img.shields.io/github/checks-status/VoterLin/AutoGridView/main)
-![GitHub Repo stars](https://img.shields.io/github/stars/VoterLin/AutoGridView?style=social)
+![GitHub branch checks state](https://img.shields.io/github/checks-status/VoterLin/AdaptiveGridView/main)
+![GitHub Repo stars](https://img.shields.io/github/stars/VoterLin/AdaptiveGridView?style=social)
 
 An Android custom ListView that implements multiple columns and variable sized elements.
 
@@ -65,4 +65,4 @@ with a custom ViewGroup possibly.
 ### Copyright and license
 
 Code and documentation copyright 2022-2027 Voter.
-Code released under the [Apache License 2.0](https://raw.githubusercontent.com/VoterLin/AutoGridView/main/LICENSE).
+Code released under the [Apache License 2.0](https://raw.githubusercontent.com/VoterLin/AdaptiveGridView/main/LICENSE).
